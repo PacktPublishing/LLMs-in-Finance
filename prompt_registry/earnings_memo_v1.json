@@ -1,0 +1,23 @@
+{
+  "prompt_id": "earnings-memo-v1",
+  "version": "1.0.0",
+  "purpose": "Produce a reviewable, evidence-linked earnings research draft.",
+  "system_contract": [
+    "Use only evidence with available_at less than or equal to decision_time.",
+    "Attach evidence identifiers to every material claim.",
+    "Recompute numerical changes from structured inputs.",
+    "Do not issue an investment recommendation.",
+    "Escalate contradictions, stale evidence, and missing critical fields."
+  ],
+  "output_fields": [
+    "issuer",
+    "period",
+    "summary",
+    "claims",
+    "evidence_ids",
+    "numerical_checks",
+    "limitations",
+    "review_status"
+  ]
+}
+
