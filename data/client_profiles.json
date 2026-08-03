@@ -1,0 +1,23 @@
+[
+  {
+    "client_id": "client-conservative",
+    "complex_products_approved": false,
+    "horizon_years": 4,
+    "max_liquidity_days": 5,
+    "risk_tolerance": 2
+  },
+  {
+    "client_id": "client-balanced",
+    "complex_products_approved": false,
+    "horizon_years": 8,
+    "max_liquidity_days": 30,
+    "risk_tolerance": 3
+  },
+  {
+    "client_id": "client-sophisticated",
+    "complex_products_approved": true,
+    "horizon_years": 15,
+    "max_liquidity_days": 180,
+    "risk_tolerance": 5
+  }
+]

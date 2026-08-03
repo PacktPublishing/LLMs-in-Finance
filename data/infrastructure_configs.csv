@@ -1,0 +1,17 @@
+configuration,precision,batch_size,quality_index,service_rate_rps,p95_latency_ms,cost_per_1k_requests_usd,memory_index,data_status
+fp32-b1,fp32,1,1.0,5.2,255.0,3.4,1.0,illustrative benchmark
+fp32-b4,fp32,4,1.0,12.2823,360.0,2.0929,1.0,illustrative benchmark
+fp32-b16,fp32,16,1.0,29.0107,780.0,1.2884,1.0,illustrative benchmark
+fp32-b32,fp32,32,1.0,44.5858,1340.0,1.0108,1.0,illustrative benchmark
+fp16-b1,fp16,1,0.998,8.58,154.545,1.972,0.58,illustrative benchmark
+fp16-b4,fp16,4,0.998,20.2658,218.182,1.2139,0.58,illustrative benchmark
+fp16-b16,fp16,16,0.998,47.8676,472.727,0.7472,0.58,illustrative benchmark
+fp16-b32,fp16,32,0.998,73.5665,812.121,0.5863,0.58,illustrative benchmark
+int8-b1,int8,1,0.991,11.7,113.333,1.156,0.34,illustrative benchmark
+int8-b4,int8,4,0.991,27.6352,160.0,0.7116,0.34,illustrative benchmark
+int8-b16,int8,16,0.991,65.274,346.667,0.438,0.34,illustrative benchmark
+int8-b32,int8,32,0.991,100.318,595.556,0.3437,0.34,illustrative benchmark
+int4-b1,int4,1,0.972,14.82,89.474,0.714,0.21,illustrative benchmark
+int4-b4,int4,4,0.972,35.0046,126.316,0.4395,0.21,illustrative benchmark
+int4-b16,int4,16,0.972,82.6804,273.684,0.2706,0.21,illustrative benchmark
+int4-b32,int4,32,0.972,127.0695,470.175,0.2123,0.21,illustrative benchmark

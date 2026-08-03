@@ -1,0 +1,146 @@
+[
+  {
+    "decision_time": "2026-02-05T14:20:00+00:00",
+    "query": "What revenue and growth did Acme Cloud Systems report for 2025Q4?",
+    "question_id": "q-ACME-results",
+    "relevant_document_ids": [
+      "filing-ACME-2025Q4-results"
+    ],
+    "ticker": "ACME"
+  },
+  {
+    "decision_time": "2026-02-05T14:20:00+00:00",
+    "query": "What were Acme Cloud Systems's leverage and interest coverage for 2025Q4?",
+    "question_id": "q-ACME-liquidity",
+    "relevant_document_ids": [
+      "filing-ACME-2025Q4-liquidity"
+    ],
+    "ticker": "ACME"
+  },
+  {
+    "decision_time": "2026-02-05T14:20:00+00:00",
+    "query": "What principal risks did Acme Cloud Systems disclose?",
+    "question_id": "q-ACME-risk_factors",
+    "relevant_document_ids": [
+      "filing-ACME-2025Q4-risk_factors"
+    ],
+    "ticker": "ACME"
+  },
+  {
+    "decision_time": "2026-02-05T14:20:00+00:00",
+    "query": "How did Acme Cloud Systems change revenue guidance?",
+    "question_id": "q-ACME-guidance",
+    "relevant_document_ids": [
+      "filing-ACME-2025Q4-guidance"
+    ],
+    "ticker": "ACME"
+  },
+  {
+    "decision_time": "2026-02-06T14:20:00+00:00",
+    "query": "What revenue and growth did Nimbus Payments report for 2025Q4?",
+    "question_id": "q-NIMB-results",
+    "relevant_document_ids": [
+      "filing-NIMB-2025Q4-results"
+    ],
+    "ticker": "NIMB"
+  },
+  {
+    "decision_time": "2026-02-06T14:20:00+00:00",
+    "query": "What were Nimbus Payments's leverage and interest coverage for 2025Q4?",
+    "question_id": "q-NIMB-liquidity",
+    "relevant_document_ids": [
+      "filing-NIMB-2025Q4-liquidity"
+    ],
+    "ticker": "NIMB"
+  },
+  {
+    "decision_time": "2026-02-06T14:20:00+00:00",
+    "query": "What principal risks did Nimbus Payments disclose?",
+    "question_id": "q-NIMB-risk_factors",
+    "relevant_document_ids": [
+      "filing-NIMB-2025Q4-risk_factors"
+    ],
+    "ticker": "NIMB"
+  },
+  {
+    "decision_time": "2026-02-06T14:20:00+00:00",
+    "query": "How did Nimbus Payments change revenue guidance?",
+    "question_id": "q-NIMB-guidance",
+    "relevant_document_ids": [
+      "filing-NIMB-2025Q4-guidance"
+    ],
+    "ticker": "NIMB"
+  },
+  {
+    "decision_time": "2026-02-07T14:20:00+00:00",
+    "query": "What revenue and growth did Orbit Industrial Analytics report for 2025Q4?",
+    "question_id": "q-ORBT-results",
+    "relevant_document_ids": [
+      "filing-ORBT-2025Q4-results"
+    ],
+    "ticker": "ORBT"
+  },
+  {
+    "decision_time": "2026-02-07T14:20:00+00:00",
+    "query": "What were Orbit Industrial Analytics's leverage and interest coverage for 2025Q4?",
+    "question_id": "q-ORBT-liquidity",
+    "relevant_document_ids": [
+      "filing-ORBT-2025Q4-liquidity"
+    ],
+    "ticker": "ORBT"
+  },
+  {
+    "decision_time": "2026-02-07T14:20:00+00:00",
+    "query": "What principal risks did Orbit Industrial Analytics disclose?",
+    "question_id": "q-ORBT-risk_factors",
+    "relevant_document_ids": [
+      "filing-ORBT-2025Q4-risk_factors"
+    ],
+    "ticker": "ORBT"
+  },
+  {
+    "decision_time": "2026-02-07T14:20:00+00:00",
+    "query": "How did Orbit Industrial Analytics change revenue guidance?",
+    "question_id": "q-ORBT-guidance",
+    "relevant_document_ids": [
+      "filing-ORBT-2025Q4-guidance"
+    ],
+    "ticker": "ORBT"
+  },
+  {
+    "decision_time": "2026-02-08T14:20:00+00:00",
+    "query": "What revenue and growth did Vela Consumer Finance report for 2025Q4?",
+    "question_id": "q-VELA-results",
+    "relevant_document_ids": [
+      "filing-VELA-2025Q4-results"
+    ],
+    "ticker": "VELA"
+  },
+  {
+    "decision_time": "2026-02-08T14:20:00+00:00",
+    "query": "What were Vela Consumer Finance's leverage and interest coverage for 2025Q4?",
+    "question_id": "q-VELA-liquidity",
+    "relevant_document_ids": [
+      "filing-VELA-2025Q4-liquidity"
+    ],
+    "ticker": "VELA"
+  },
+  {
+    "decision_time": "2026-02-08T14:20:00+00:00",
+    "query": "What principal risks did Vela Consumer Finance disclose?",
+    "question_id": "q-VELA-risk_factors",
+    "relevant_document_ids": [
+      "filing-VELA-2025Q4-risk_factors"
+    ],
+    "ticker": "VELA"
+  },
+  {
+    "decision_time": "2026-02-08T14:20:00+00:00",
+    "query": "How did Vela Consumer Finance change revenue guidance?",
+    "question_id": "q-VELA-guidance",
+    "relevant_document_ids": [
+      "filing-VELA-2025Q4-guidance"
+    ],
+    "ticker": "VELA"
+  }
+]

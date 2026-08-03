@@ -1,0 +1,29 @@
+experiment_id,system,task,sample_size,quality,ci_low,ci_high,temporal_split,point_in_time,independent_review,data_status
+exp-000,Lexical baseline,sentiment,339,0.62738,0.57591,0.67885,False,False,True,illustrative evidence card
+exp-001,Calibrated classifier,retrieval,924,0.70152,0.67201,0.73102,True,True,False,illustrative evidence card
+exp-002,Hybrid retrieval,policy compliance,664,0.74791,0.71488,0.78094,True,True,False,illustrative evidence card
+exp-003,Governed agent,sentiment,1280,0.78294,0.76035,0.80552,True,False,False,illustrative evidence card
+exp-004,Lexical baseline,retrieval,1339,0.62099,0.595,0.64697,False,True,False,illustrative evidence card
+exp-005,Calibrated classifier,policy compliance,297,0.68855,0.63588,0.74122,True,True,True,illustrative evidence card
+exp-006,Hybrid retrieval,sentiment,571,0.72773,0.69122,0.76424,True,False,False,illustrative evidence card
+exp-007,Governed agent,retrieval,558,0.79912,0.76587,0.83236,True,True,False,illustrative evidence card
+exp-008,Lexical baseline,policy compliance,858,0.65373,0.62189,0.68557,False,True,False,illustrative evidence card
+exp-009,Calibrated classifier,sentiment,991,0.65396,0.62434,0.68358,True,False,False,illustrative evidence card
+exp-010,Hybrid retrieval,retrieval,1097,0.7477,0.722,0.77341,True,True,True,illustrative evidence card
+exp-011,Governed agent,policy compliance,383,0.79926,0.75914,0.83937,True,True,False,illustrative evidence card
+exp-012,Lexical baseline,sentiment,1150,0.60036,0.57205,0.62867,False,False,False,illustrative evidence card
+exp-013,Calibrated classifier,retrieval,491,0.68983,0.64891,0.73074,True,True,False,illustrative evidence card
+exp-014,Hybrid retrieval,policy compliance,1233,0.73543,0.71081,0.76006,True,True,False,illustrative evidence card
+exp-015,Governed agent,sentiment,603,0.81161,0.7804,0.84282,True,False,True,illustrative evidence card
+exp-016,Lexical baseline,retrieval,1115,0.64485,0.61676,0.67294,False,True,False,illustrative evidence card
+exp-017,Calibrated classifier,policy compliance,417,0.7062,0.66249,0.74992,True,True,False,illustrative evidence card
+exp-018,Hybrid retrieval,sentiment,1099,0.72748,0.70115,0.7538,True,False,False,illustrative evidence card
+exp-019,Governed agent,retrieval,782,0.80529,0.77753,0.83304,True,True,False,illustrative evidence card
+exp-020,Lexical baseline,policy compliance,924,0.67779,0.64766,0.70792,False,True,True,illustrative evidence card
+exp-021,Calibrated classifier,sentiment,479,0.72038,0.68019,0.76057,True,False,False,illustrative evidence card
+exp-022,Hybrid retrieval,retrieval,645,0.74511,0.71147,0.77874,True,True,False,illustrative evidence card
+exp-023,Governed agent,policy compliance,392,0.81071,0.77192,0.84949,True,True,False,illustrative evidence card
+exp-024,Lexical baseline,sentiment,1018,0.64881,0.61949,0.67813,False,False,False,illustrative evidence card
+exp-025,Calibrated classifier,retrieval,268,0.72139,0.66771,0.77506,True,True,True,illustrative evidence card
+exp-026,Hybrid retrieval,policy compliance,968,0.71008,0.6815,0.73866,True,True,False,illustrative evidence card
+exp-027,Governed agent,sentiment,262,0.80328,0.75514,0.85141,True,False,False,illustrative evidence card
