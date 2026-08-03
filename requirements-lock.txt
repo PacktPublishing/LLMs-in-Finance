@@ -9,7 +9,7 @@ matplotlib==3.10.8
 numpy==2.3.5
 packaging==26.2
 pandas==2.2.3
-pillow==12.2.0
+pillow==12.3.0
 pydantic==2.13.4
 pydantic-core==2.46.4
 pyparsing==3.3.2
