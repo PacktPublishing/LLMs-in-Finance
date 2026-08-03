@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use these notebooks, please cite the book."
+title: "Large Language Models in Finance: Companion Notebook Suite"
+type: software
+version: 1.1.0
+date-released: 2026-07-30
+repository-code: "https://github.com/PacktPublishing/LLMs-in-Finance"
+url: "https://github.com/PacktPublishing/LLMs-in-Finance"
+license: MIT
+keywords:
+  - finance
+  - large language models
+  - retrieval-augmented generation
+  - model governance
+  - Jupyter notebooks
+authors:
+  - family-names: "Noguer i Alonso"
+    given-names: "Miquel"
+preferred-citation:
+  type: book
+  title: "Large Language Models in Finance"
+  subtitle: "A hands-on guide to LLM architectures, agents, RAG, governance, and evaluation in finance"
+  authors:
+    - family-names: "Noguer i Alonso"
+      given-names: "Miquel"
+  publisher:
+    name: "Packt Publishing"
+  year: 2026
+  isbn: "978-1-83702-453-7"

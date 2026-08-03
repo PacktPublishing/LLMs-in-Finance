@@ -1,0 +1,761 @@
+{
+  "book": {
+    "author": "Miquel Noguer i Alonso",
+    "isbn": "978-1-83702-453-7",
+    "production_id": "B32413",
+    "publisher": "Packt Publishing",
+    "title": "Large Language Models in Finance"
+  },
+  "data_files": [
+    {
+      "bytes": 1697,
+      "path": "data/README.md",
+      "sha256": "f19b274e170089febd1a434f0e1eca4d3970faa38f77a9ae597eed7347f6dce2"
+    },
+    {
+      "bytes": 869,
+      "path": "data/cards/earnings_calls.md",
+      "sha256": "383d350706bf5e5fe6b8a1e841d83e661fadbe85e42d62d6be6670ea403cb991"
+    },
+    {
+      "bytes": 568,
+      "path": "data/cards/filings_rag.md",
+      "sha256": "13d8dcc906c3c7120cf7220b954f7c698de5d86dec6fd38aff60dfba15a8fbf1"
+    },
+    {
+      "bytes": 680,
+      "path": "data/cards/market_text_panel.md",
+      "sha256": "0c3d337d645063c071597bfb310b126b8481aa72d9594b7eefa09bc31d2a1575"
+    },
+    {
+      "bytes": 501,
+      "path": "data/client_profiles.json",
+      "sha256": "b0cc6a04c02756c882cf3069ee1e1ce4b0659d2e255a58bc91c789422991aae8"
+    },
+    {
+      "bytes": 1442,
+      "path": "data/contracts.jsonl",
+      "sha256": "45ce808b6c54969abde4fed781e1e74ca8220ae575d32dfddc74060b0ef52447"
+    },
+    {
+      "bytes": 47610,
+      "path": "data/earnings_calls.csv",
+      "sha256": "6d46124bb63bd313fd7053a6772eef0fb5768df82b3d819865552788096d0281"
+    },
+    {
+      "bytes": 3192,
+      "path": "data/evidence_matrix.csv",
+      "sha256": "43414eacc5b9aff3b752674d654418497d6c6945d8cd104e66c53547345f24ae"
+    },
+    {
+      "bytes": 99437,
+      "path": "data/filings.jsonl",
+      "sha256": "2ae7f71bc4276f67a256a2a3f9ee677e98561f575b3283be2a1a603b1d4f8076"
+    },
+    {
+      "bytes": 2571,
+      "path": "data/governance_inventory.csv",
+      "sha256": "59d7e052e0cbc0bb01f5bf80aa6e9cf13f2df08befa99bf788c8b130e057785c"
+    },
+    {
+      "bytes": 1258,
+      "path": "data/infrastructure_configs.csv",
+      "sha256": "596a4b7acb0150449669c570f0652eb9b77e15e4284236a76ef7a98025e3fbdc"
+    },
+    {
+      "bytes": 250128,
+      "path": "data/market_text_panel.csv",
+      "sha256": "38f080cca136eeb033581c249d0064e0a2a7a3d7b434096594a413863a654333"
+    },
+    {
+      "bytes": 21946,
+      "path": "data/preference_pairs.csv",
+      "sha256": "2c6d08250bf72e11ff0199213b9cb066e18fdae3d32d164f560f108894fa4ffc"
+    },
+    {
+      "bytes": 4379,
+      "path": "data/rag_questions.json",
+      "sha256": "569e9091ce7c96335e7a0ffdabf4df69fbf0871bacf2edeb7e049f731c28b658"
+    },
+    {
+      "bytes": 129570,
+      "path": "data/transactions.csv",
+      "sha256": "4631eefe2a365e82d323a933b6946b8123f2cdba43b8581f01fcb71a6f99f641"
+    }
+  ],
+  "notebooks": [
+    {
+      "bytes": 159398,
+      "code_cells": 8,
+      "colab_bootstrap_cells": 1,
+      "error_outputs": 0,
+      "figures": 1,
+      "fully_executed": true,
+      "path": "notebooks/00_start_here.ipynb",
+      "sha256": "be1139a6a36bd225beb391d0cf703de2ec6f95397a7b15b2d0dc8a88a9403ad3",
+      "stderr_streams": 0
+    },
+    {
+      "bytes": 250023,
+      "code_cells": 9,
+      "colab_bootstrap_cells": 1,
+      "error_outputs": 0,
+      "figures": 3,
+      "fully_executed": true,
+      "path": "notebooks/01_earnings_call_assistant.ipynb",
+      "sha256": "402acc89b730d916f6bc766a33ca26254241f95d26a752e2263603060843b690",
+      "stderr_streams": 0
+    },
+    {
+      "bytes": 281580,
+      "code_cells": 10,
+      "colab_bootstrap_cells": 1,
+      "error_outputs": 0,
+      "figures": 3,
+      "fully_executed": true,
+      "path": "notebooks/02_transformer_mechanics.ipynb",
+      "sha256": "e3b27e07cf96c1465f720628c2cc550ef9a7ae1c15c731e0faca7bd65af7c13b",
+      "stderr_streams": 0
+    },
+    {
+      "bytes": 236054,
+      "code_cells": 11,
+      "colab_bootstrap_cells": 1,
+      "error_outputs": 0,
+      "figures": 2,
+      "fully_executed": true,
+      "path": "notebooks/03_fine_tuning_and_calibration.ipynb",
+      "sha256": "09a7ad0595e6ac27597929c1e2679b9dd81519fa67bae3f303023cea9375c280",
+      "stderr_streams": 0
+    },
+    {
+      "bytes": 73296,
+      "code_cells": 9,
+      "colab_bootstrap_cells": 1,
+      "error_outputs": 0,
+      "figures": 1,
+      "fully_executed": true,
+      "path": "notebooks/04_point_in_time_rag.ipynb",
+      "sha256": "56be5726d945619ee0da5282b873bad7363547a357774ddaee426236c3b3a55e",
+      "stderr_streams": 0
+    },
+    {
+      "bytes": 73664,
+      "code_cells": 9,
+      "colab_bootstrap_cells": 1,
+      "error_outputs": 0,
+      "figures": 1,
+      "fully_executed": true,
+      "path": "notebooks/05_governed_multi_agent_research.ipynb",
+      "sha256": "d7cc21f176995602dad89d9325be651edf41aac18212136d0fe7fddeba25479e",
+      "stderr_streams": 0
+    },
+    {
+      "bytes": 75888,
+      "code_cells": 8,
+      "colab_bootstrap_cells": 1,
+      "error_outputs": 0,
+      "figures": 1,
+      "fully_executed": true,
+      "path": "notebooks/06_hardened_tool_invocation.ipynb",
+      "sha256": "351975cc169f368930cf0665e0542cd43518cb2f054b502d2ab5617e589d77d5",
+      "stderr_streams": 0
+    },
+    {
+      "bytes": 102298,
+      "code_cells": 8,
+      "colab_bootstrap_cells": 1,
+      "error_outputs": 0,
+      "figures": 1,
+      "fully_executed": true,
+      "path": "notebooks/07_finance_applications.ipynb",
+      "sha256": "242c9833f400167e9e32a6b5059515fabb1ff6afdde677930c0f583c1a66b847",
+      "stderr_streams": 0
+    },
+    {
+      "bytes": 100716,
+      "code_cells": 8,
+      "colab_bootstrap_cells": 1,
+      "error_outputs": 0,
+      "figures": 1,
+      "fully_executed": true,
+      "path": "notebooks/08_document_intelligence_and_suitability.ipynb",
+      "sha256": "cbfe3a50c3a046ac1808ac001404668696582bfb829c44bb31be152ae3a6b8a3",
+      "stderr_streams": 0
+    },
+    {
+      "bytes": 176128,
+      "code_cells": 9,
+      "colab_bootstrap_cells": 1,
+      "error_outputs": 0,
+      "figures": 2,
+      "fully_executed": true,
+      "path": "notebooks/09_preference_optimization.ipynb",
+      "sha256": "d79afe11c37515240c1193e1c389de5ed1e0022a18b348b9845f9de077bf608e",
+      "stderr_streams": 0
+    },
+    {
+      "bytes": 213413,
+      "code_cells": 8,
+      "colab_bootstrap_cells": 1,
+      "error_outputs": 0,
+      "figures": 2,
+      "fully_executed": true,
+      "path": "notebooks/10_inference_and_capacity.ipynb",
+      "sha256": "651fe2f313f54523f90b3be8ce139f2e2a4019b95924eb30ef5371649f06cc8b",
+      "stderr_streams": 0
+    },
+    {
+      "bytes": 130222,
+      "code_cells": 9,
+      "colab_bootstrap_cells": 1,
+      "error_outputs": 0,
+      "figures": 2,
+      "fully_executed": true,
+      "path": "notebooks/11_governance_control_tower.ipynb",
+      "sha256": "8fb05f6f90a8b4545560760e05d012265d9054548c9e8e1574cc2f3d94d90a1f",
+      "stderr_streams": 0
+    },
+    {
+      "bytes": 176053,
+      "code_cells": 9,
+      "colab_bootstrap_cells": 1,
+      "error_outputs": 0,
+      "figures": 1,
+      "fully_executed": true,
+      "path": "notebooks/12_evidence_matrix_and_benchmarks.ipynb",
+      "sha256": "046da8b534447fc0bf425198339aa836abe8b8f78d5d86db2c7c37b77f08add9",
+      "stderr_streams": 0
+    },
+    {
+      "bytes": 221023,
+      "code_cells": 9,
+      "colab_bootstrap_cells": 1,
+      "error_outputs": 0,
+      "figures": 2,
+      "fully_executed": true,
+      "path": "notebooks/13_point_in_time_forecasting.ipynb",
+      "sha256": "260f8ef44ef69fad9091995ecb11184aadf15442ba72b91b81ba6ed9926bcc76",
+      "stderr_streams": 0
+    },
+    {
+      "bytes": 201254,
+      "code_cells": 8,
+      "colab_bootstrap_cells": 1,
+      "error_outputs": 0,
+      "figures": 2,
+      "fully_executed": true,
+      "path": "notebooks/14_bounded_autonomous_agents.ipynb",
+      "sha256": "1d48cf3074fb342e28db457fd6a06251880f1f5621cde47bf8ffefb9e1b3a939",
+      "stderr_streams": 0
+    },
+    {
+      "bytes": 27891,
+      "code_cells": 9,
+      "colab_bootstrap_cells": 1,
+      "error_outputs": 0,
+      "figures": 0,
+      "fully_executed": true,
+      "path": "notebooks/15_technical_foundations.ipynb",
+      "sha256": "49db9f7ba7d73b9b8a2bf667fc04afde9361a8dc90c8009d4fd45e6219369a2a",
+      "stderr_streams": 0
+    },
+    {
+      "bytes": 101273,
+      "code_cells": 11,
+      "colab_bootstrap_cells": 1,
+      "error_outputs": 0,
+      "figures": 1,
+      "fully_executed": true,
+      "path": "notebooks/16_capstone_earnings_intelligence.ipynb",
+      "sha256": "da7805b57d023adb441d4e03e1aebd9456659ef2bf6045332539954ed6f4a334",
+      "stderr_streams": 0
+    },
+    {
+      "bytes": 82246,
+      "code_cells": 7,
+      "colab_bootstrap_cells": 1,
+      "error_outputs": 0,
+      "figures": 1,
+      "fully_executed": true,
+      "path": "notebooks/17_optional_real_model_and_sec.ipynb",
+      "sha256": "f1260cbef9c441d4fbed75b7a3a78694888616c8c32b570785db8af896298199",
+      "stderr_streams": 0
+    }
+  ],
+  "provenance": {
+    "replacement_file_count": 10,
+    "trusted_baseline_archive": "Large_Language_Models_in_Finance_Notebook_Suite_v1.0.0.zip",
+    "trusted_baseline_sha256": "f7da74eed510ad959898e402172cb5b5b39911d07c420143b512c91b42aa3522",
+    "untrusted_concurrent_tree_used": false,
+    "verified_replacement_bundle": "files - 2026-07-28T102259.194.zip",
+    "verified_replacement_sha256": "5ddf57d02a67b1690bac33f7449c30b3fdaac70a85d74d7f5524754663289f96"
+  },
+  "release": "LLM-in-Finance-notebooks-v1.1.0",
+  "release_date": "2026-07-30",
+  "repository": {
+    "default_branch": "main",
+    "license": "MIT",
+    "python_requires": ">=3.11",
+    "url": "https://github.com/PacktPublishing/LLMs-in-Finance"
+  },
+  "repository_files": [
+    {
+      "bytes": 254,
+      "path": ".editorconfig",
+      "sha256": "03afe8007f43086a7fdf4af24b3cc59724bd8dac60427cf2ee2ebc47dc6dc524"
+    },
+    {
+      "bytes": 1568,
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "sha256": "998e0b5946de0a6225ff1dea11bc378b9d53b92dda0864736785d96888f38183"
+    },
+    {
+      "bytes": 246,
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha256": "209a7c66a3ed7d3407ec3eb1986e9aaeab8cea67e5b355a194536a40ff420dd1"
+    },
+    {
+      "bytes": 1116,
+      "path": ".github/ISSUE_TEMPLATE/feature_request.yml",
+      "sha256": "d2ca80c523eb26604f60a563525f7cf90e54f898af28b14c81a160104cf96b81"
+    },
+    {
+      "bytes": 662,
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "sha256": "ad606c5a82ea44ba86d987a1c7bdb7bb53c8b40a753f42ee1c94c3e1d8cda80d"
+    },
+    {
+      "bytes": 323,
+      "path": ".github/dependabot.yml",
+      "sha256": "6b5267934dccc64d75a66907616f500d45475fee92bc732509a3814f108af207"
+    },
+    {
+      "bytes": 601,
+      "path": ".github/workflows/codeql.yml",
+      "sha256": "4576014e436e3ac01e9616aee6419333ae4c1dd3d19651bdbbc9355b816c50e3"
+    },
+    {
+      "bytes": 2743,
+      "path": ".github/workflows/notebooks.yml",
+      "sha256": "0167c1814d2198aa5584ae301f31ca728af34b254f2ad47ccd29e2078346ea9f"
+    },
+    {
+      "bytes": 1227,
+      "path": ".github/workflows/release.yml",
+      "sha256": "e270670e32bea3d89890538d30674e1af0dc82122ca449f575eb403e7e204eb4"
+    },
+    {
+      "bytes": 204,
+      "path": ".gitignore",
+      "sha256": "3f94c29b2082ab39f247ebb7241ab1920fc0413df8e146cbe5c4663f29006445"
+    },
+    {
+      "bytes": 5,
+      "path": ".python-version",
+      "sha256": "7b55f8e67b5623c4bef3fa691288da9437d79d3aba156de48d481db32ac7d16d"
+    },
+    {
+      "bytes": 3235,
+      "path": "CHANGELOG.md",
+      "sha256": "6ccb5c45548a538512fae266a48faf1df62b02fe0c2e6c8640b3ae82a30a49ea"
+    },
+    {
+      "bytes": 883,
+      "path": "CITATION.cff",
+      "sha256": "e0c33080c00d474633a42ad6bdc4edc2c5fa96e2185f47112a93165aa45020d5"
+    },
+    {
+      "bytes": 2343,
+      "path": "CONTRIBUTING.md",
+      "sha256": "f5059a3f7de072aeb581fd096b3772f3e1873df2d3909cf94cf4273ca72204c0"
+    },
+    {
+      "bytes": 1062,
+      "path": "LICENSE",
+      "sha256": "1b9f4f96322ffe2b66a8bf3fcda7f472cc9c02b90185010c0c1387b456cb5b78"
+    },
+    {
+      "bytes": 1581,
+      "path": "Makefile",
+      "sha256": "856c6169bee864eb3101941179b792e97bc01d308625813405152b7580f402de"
+    },
+    {
+      "bytes": 14308,
+      "path": "README.md",
+      "sha256": "2120b220f76c25f1c18083820b7eb626706fcce92e41df20d755824730c8a473"
+    },
+    {
+      "bytes": 1647,
+      "path": "RELEASE_CHECKLIST.md",
+      "sha256": "72c021b64163cdf0c9480504168b9088dc64b8206d113b85fd83972377ad4ce3"
+    },
+    {
+      "bytes": 1103,
+      "path": "SECURITY.md",
+      "sha256": "fb985f8d2d5c8a73fd501343697fa52c351841a6d966a9eb90b712d7f5df1a02"
+    },
+    {
+      "bytes": 220370,
+      "path": "assets/finllm_suite_demo.gif",
+      "sha256": "1e06b8144ccedd12d192ea95024a4b1e7993571623b2c6e146cbd391a35355a3"
+    },
+    {
+      "bytes": 40316,
+      "path": "assets/github_social_preview.png",
+      "sha256": "b0be6b5dc953efc507b45d04a19faa1ab65a1e2ecea2f4a9c0c285151dcdff88"
+    },
+    {
+      "bytes": 2327,
+      "path": "assets/notebook_suite_banner.svg",
+      "sha256": "b88031d04069b7b69c962be39f89208adb6bc20e4b7c4cbe17170ee28d0a6e40"
+    },
+    {
+      "bytes": 346,
+      "path": "assets/previews/README.md",
+      "sha256": "1d505efb04ba875ef41bf52b8d817925b8d2faaadfa0956f11757df71bb62cf7"
+    },
+    {
+      "bytes": 69865,
+      "path": "assets/previews/attention_mechanics.png",
+      "sha256": "4f23fcd9753a60f55c70ec3f7c52e76b30c1d46b7d2b4dfc2cd06e7a273fbf3c"
+    },
+    {
+      "bytes": 49692,
+      "path": "assets/previews/capstone_scorecard.png",
+      "sha256": "1084488f42399119ac5caef9d30303b238dacf0331ec0b140acd8ececabb80c0"
+    },
+    {
+      "bytes": 46694,
+      "path": "assets/previews/governance_dashboard.png",
+      "sha256": "4f1a009219fc95e4515c45f6762eafd647a13eb4ab3bec344508807a4c6423d6"
+    },
+    {
+      "bytes": 101339,
+      "path": "assets/previews/learning_path.png",
+      "sha256": "325f2f629654c7cc013ffa4432be881418f2b350b81d3e0f73d91435a6dc0c0b"
+    },
+    {
+      "bytes": 33851,
+      "path": "assets/previews/point_in_time_rag.png",
+      "sha256": "4dda038fac526119db5c380350966dd4f13063bba842566680683c7dc3a3df86"
+    },
+    {
+      "bytes": 686,
+      "path": "audit_logs/README.md",
+      "sha256": "d4ff82b91139d3285859e98baebc987fb2f1871f9af523fee7d879e9ca94328f"
+    },
+    {
+      "bytes": 2416,
+      "path": "audit_logs/REBUILD_PROVENANCE.md",
+      "sha256": "73fe4d53605d9a260ba465b92453e349e7127268047e6193a58bdf3da00ee4ff"
+    },
+    {
+      "bytes": 2639,
+      "path": "docs/LEARNING_PATHS.md",
+      "sha256": "711cfec453487da8ef7100baf423512dfe5784f834b323eed9c201507c4453b0"
+    },
+    {
+      "bytes": 2891,
+      "path": "docs/OPTIONAL_EXTENSIONS.md",
+      "sha256": "419ce1a7dab52414c50283e491e6ae273a0226bda8c714580053381199890a2a"
+    },
+    {
+      "bytes": 2705,
+      "path": "docs/PUBLISHING.md",
+      "sha256": "127ccf70f725d327991b90d671b54e821ddfbccb134578c7c3b481ab53d27931"
+    },
+    {
+      "bytes": 2566,
+      "path": "model_cards/optional_smollm2_360m.md",
+      "sha256": "155d48819629178c4f49d84e9592ec7f8e591e7655060ae17375c54163b197f2"
+    },
+    {
+      "bytes": 586,
+      "path": "model_cards/template.md",
+      "sha256": "3f6772012c6307c4aa5058c77c03fc2c52a76f9c248960428a7b0e0f10882c04"
+    },
+    {
+      "bytes": 8616,
+      "path": "notebook_sources/00_start_here.py",
+      "sha256": "cbb00d5a0b2fe0b85864179f87106644457242ae2f93a9a5c6ac1e08056bba84"
+    },
+    {
+      "bytes": 8500,
+      "path": "notebook_sources/01_earnings_call_assistant.py",
+      "sha256": "4e170086a3a3bc30607dc55c421402314fa0f758cd1e940676f20cb1e7757f24"
+    },
+    {
+      "bytes": 7687,
+      "path": "notebook_sources/02_transformer_mechanics.py",
+      "sha256": "a9b68539dfcc71c91b47d6f0425000f8f843611c966cdf9cde60804a67ddfc30"
+    },
+    {
+      "bytes": 13287,
+      "path": "notebook_sources/03_fine_tuning_and_calibration.py",
+      "sha256": "791d84acceebc999752be3683b0499db5172e6d07e8ed0035ed1deb074d530f6"
+    },
+    {
+      "bytes": 11232,
+      "path": "notebook_sources/04_point_in_time_rag.py",
+      "sha256": "35054209aee115d3a50ac627057b1b65ddae26d086c7d08600a8dd17b8ed00bc"
+    },
+    {
+      "bytes": 10978,
+      "path": "notebook_sources/05_governed_multi_agent_research.py",
+      "sha256": "16a7f0854339c8007f5edcede29a6f11b624ec61e7b11ff49f4608b5353dbb74"
+    },
+    {
+      "bytes": 7560,
+      "path": "notebook_sources/06_hardened_tool_invocation.py",
+      "sha256": "dbfb9a16a9b7c4c1a88239b55d5a16e9d2b647b34dbf2b6975d0876b62f1633a"
+    },
+    {
+      "bytes": 11263,
+      "path": "notebook_sources/07_finance_applications.py",
+      "sha256": "5e77debb2cbda3f1cba04de6f878a8c8f53b0a37c2187a24f19013345f6016d3"
+    },
+    {
+      "bytes": 7308,
+      "path": "notebook_sources/08_document_intelligence_and_suitability.py",
+      "sha256": "5d514e44fc8a0b020fb7a2b720b37858986d75d8edf42c32f158b3e0afa7fec7"
+    },
+    {
+      "bytes": 8560,
+      "path": "notebook_sources/09_preference_optimization.py",
+      "sha256": "3d43325c883c4d98d09f628e5c486a48905d39d8b87ae8f2769004a46ef40bc4"
+    },
+    {
+      "bytes": 6754,
+      "path": "notebook_sources/10_inference_and_capacity.py",
+      "sha256": "097fd6894302c14ad4d18a00a155b236bbf606ca990d67bdedd565f3fdedacf4"
+    },
+    {
+      "bytes": 9415,
+      "path": "notebook_sources/11_governance_control_tower.py",
+      "sha256": "d02fade244fdb22f64bcfc8589f0e3c9623fb0b5d038c67f573c0e4e22a33729"
+    },
+    {
+      "bytes": 6680,
+      "path": "notebook_sources/12_evidence_matrix_and_benchmarks.py",
+      "sha256": "e1f989df603304377d7bb7f0876dd4cfe20dab8cc7f91ad06d4f58dd9cb433d1"
+    },
+    {
+      "bytes": 8334,
+      "path": "notebook_sources/13_point_in_time_forecasting.py",
+      "sha256": "8af80be0d060af733d4571f4d5aa90b096adb2a0cea1fcd7d181c2541ab28e04"
+    },
+    {
+      "bytes": 8041,
+      "path": "notebook_sources/14_bounded_autonomous_agents.py",
+      "sha256": "90ab056ded1a5191870f2802d0022b2566b36cb4685fea3620a02c76ace43dd6"
+    },
+    {
+      "bytes": 9568,
+      "path": "notebook_sources/15_technical_foundations.py",
+      "sha256": "6f8f4ea5a49adf3f2a64c166618bd2769cb61839b76360617e314d6d31b9fc25"
+    },
+    {
+      "bytes": 12413,
+      "path": "notebook_sources/16_capstone_earnings_intelligence.py",
+      "sha256": "a36e4eebdac6ab59834dbc98623186be3fb227904215e9c3efd2d540444c1ff4"
+    },
+    {
+      "bytes": 11852,
+      "path": "notebook_sources/17_optional_real_model_and_sec.py",
+      "sha256": "2c32e7e54cdd5f4b0c36b7d1c05c1ddc9565285558726e457d1e84d6ab19e4e4"
+    },
+    {
+      "bytes": 659,
+      "path": "prompt_registry/earnings_memo_v1.json",
+      "sha256": "1bca62e56403afa0e59708dae2a53a076630254f2fbff03a651689234998cbb7"
+    },
+    {
+      "bytes": 1832,
+      "path": "pyproject.toml",
+      "sha256": "a6e7e69377f27aba42b473393fce8d25f1b0b52ef895e212f186a8820c6b1058"
+    },
+    {
+      "bytes": 70,
+      "path": "requirements-dev.txt",
+      "sha256": "f781a3237bdb8bacd72e0a111a72f55435d7b51c46584090e0603e9a9686a9a1"
+    },
+    {
+      "bytes": 152,
+      "path": "requirements-extensions.txt",
+      "sha256": "591803363bd8a35d34524e677b131b2ae3f3a1e74b3451b380fc3fee1ee2b563"
+    },
+    {
+      "bytes": 496,
+      "path": "requirements-lock.txt",
+      "sha256": "ca56aa72bd9a225d1dda32ea0675ffb48db0187e113487bfefb0b476f8a10703"
+    },
+    {
+      "bytes": 299,
+      "path": "requirements.txt",
+      "sha256": "99f4d709f0544c5f0c08d3e3156f3d1647d69f2a01ae0ea0ba75cc219fad1345"
+    },
+    {
+      "bytes": 7144,
+      "path": "scripts/build_notebooks.py",
+      "sha256": "246e42ae13181f152f2226b644d5809df1034e61873297c4bf2a9a73c14fefd1"
+    },
+    {
+      "bytes": 741,
+      "path": "scripts/clean_notebook_outputs.py",
+      "sha256": "2cb31aa7c8b8422501c593b10296a1dbce294565ea8741d58693def041973a44"
+    },
+    {
+      "bytes": 7694,
+      "path": "scripts/execute_notebooks.py",
+      "sha256": "cb3274c6b77f476893f85415ba7eaa4fcaf024ac541c9db5bbf596b9c438a5a2"
+    },
+    {
+      "bytes": 6190,
+      "path": "scripts/export_readme_previews.py",
+      "sha256": "23fe09847d34ffbfc3f9133c86b0dfae5561356a610a3517dadf5c191bf43426"
+    },
+    {
+      "bytes": 20443,
+      "path": "scripts/generate_data.py",
+      "sha256": "766707d3d618d70dfb302b3421cff362c2803020d4a8f569cb7e875a66b700b8"
+    },
+    {
+      "bytes": 2846,
+      "path": "scripts/package_release.py",
+      "sha256": "a68a1be89c119705ecff495e13827d056f6c49f4f010d4411d2b66f59e697596"
+    },
+    {
+      "bytes": 4298,
+      "path": "scripts/verify_archive.py",
+      "sha256": "bffc14e45a5a63482cfd87f01680c9eb1cde879b6f38aa9f84d0c5111979339f"
+    },
+    {
+      "bytes": 12641,
+      "path": "scripts/verify_release.py",
+      "sha256": "5c56869c66af5b22cbfcdf545b2fe63ae1ddcb425c30b4e97cefab9f27d5705c"
+    },
+    {
+      "bytes": 754,
+      "path": "scripts/verify_release_tag.py",
+      "sha256": "8923053aed70e894f042f0a2bd6605073782ec8aa78b86a3889c1e3cc03c25e1"
+    },
+    {
+      "bytes": 6592,
+      "path": "scripts/write_release_manifest.py",
+      "sha256": "ea4f3e8d9af1e75b3a0a9ae312072f6c0e099e9a5e26d3bbe00c716fe839983a"
+    },
+    {
+      "bytes": 1101,
+      "path": "src/finllm_lab/__init__.py",
+      "sha256": "b38e6dae672a3434566c1caef222e9f43fc4431634ccc601c588d13f7f56ac49"
+    },
+    {
+      "bytes": 3867,
+      "path": "src/finllm_lab/contracts.py",
+      "sha256": "82059eebdc403cb0aac798338332a863ff6aec52d307c9ba3c86aaac596c3f25"
+    },
+    {
+      "bytes": 2378,
+      "path": "src/finllm_lab/core.py",
+      "sha256": "4fdc3d4b898defc85a5fc011a1c83fbd96495c9af736cabe0e80f9f3abd6918e"
+    },
+    {
+      "bytes": 3447,
+      "path": "src/finllm_lab/documents.py",
+      "sha256": "dbb76f55b964d425b7ac6ae71ad71a3b4a1b26f7efaa7c4fc893a75a88e29e2f"
+    },
+    {
+      "bytes": 8829,
+      "path": "src/finllm_lab/governance.py",
+      "sha256": "266157e5ce7573228fe5ddb313475338dcfea7e5f5fe632bf6d88a45e8e8a556"
+    },
+    {
+      "bytes": 11282,
+      "path": "src/finllm_lab/integrations.py",
+      "sha256": "0db164344550f6c932477a5a36738b78b77206a8c6c3f09b2479b01c28f53a70"
+    },
+    {
+      "bytes": 2621,
+      "path": "src/finllm_lab/market.py",
+      "sha256": "f374d775851d17ddd1f3c7dfc3310b7348d6fccb1fe39bb59b7e64f48cb8a5a7"
+    },
+    {
+      "bytes": 6388,
+      "path": "src/finllm_lab/metrics.py",
+      "sha256": "cb054b91cf8756e3c123c3223c2015b41ad7c3674cfedc9c15ec1425a5e46504"
+    },
+    {
+      "bytes": 1463,
+      "path": "src/finllm_lab/plotting.py",
+      "sha256": "af269c34ea61690a369e31602180d6cc855afc4379d45144897524ad8b051cb5"
+    },
+    {
+      "bytes": 1,
+      "path": "src/finllm_lab/py.typed",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "bytes": 10247,
+      "path": "src/finllm_lab/rag.py",
+      "sha256": "32151d9d3b89438c2e61faf1e2175254258077b4b36d1bd94a534df093b3e6c6"
+    },
+    {
+      "bytes": 2187,
+      "path": "src/finllm_lab/rl.py",
+      "sha256": "0420b10b543acce2544a112e0db930748431c7a0526ee8568e8a4fe090ce4936"
+    },
+    {
+      "bytes": 4490,
+      "path": "src/finllm_lab/temporal.py",
+      "sha256": "d59645b0f137e2f8b4a0ae9ec6a28d37a9f5c76164e0ff16874dc7f60756f4e5"
+    },
+    {
+      "bytes": 7063,
+      "path": "src/finllm_lab/text.py",
+      "sha256": "4ce3cd2ee8d8e6b6cbad678947851cd9edabbf3c5827decae681dd1cfcd29ae8"
+    },
+    {
+      "bytes": 3323,
+      "path": "tests/test_core.py",
+      "sha256": "66c5695bd29b203792a38387479fc5c093368900bfe89ea116c7d01d47f4ce43"
+    },
+    {
+      "bytes": 7937,
+      "path": "tests/test_integrations.py",
+      "sha256": "b972704b1a4f282f4a97c1325e0febfff77ef4bc8a862ff5f7ed359079b15578"
+    },
+    {
+      "bytes": 11654,
+      "path": "tests/test_invariants.py",
+      "sha256": "8fb2798f9583b22024b45e7f10080bfd87fcc338e8697f491650ae9981a1b6a1"
+    },
+    {
+      "bytes": 1441,
+      "path": "tests/test_packaging.py",
+      "sha256": "3e99a5fb6838ce0ab1a660fefa7efca126dd94bb6dfb91634e615388f6a11245"
+    },
+    {
+      "bytes": 6492,
+      "path": "tests/test_repository.py",
+      "sha256": "1127122880a214cb4030735bf7e2ce77d448c097ec4673df3a5265b5a8571070"
+    }
+  ],
+  "scope": "additive educational notebook layer; does not replace canonical companion tag",
+  "verification": {
+    "all_colab_bootstraps_present": true,
+    "all_fully_executed": true,
+    "code_cells": 159,
+    "core_notebook_count": 17,
+    "credential_required_for_default_run": false,
+    "error_outputs": 0,
+    "external_adapters_enabled_in_default_run": false,
+    "figures": 27,
+    "live_execution_enabled": false,
+    "notebook_count": 18,
+    "optional_extension_count": 1,
+    "readme_preview_pngs": 5,
+    "stderr_streams": 0,
+    "unit_tests_discovered": 52
+  }
+}

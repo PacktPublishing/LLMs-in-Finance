@@ -1,0 +1,2 @@
+# Exact lightweight quality tool used by CI for v1.1.0.
+ruff==0.15.22

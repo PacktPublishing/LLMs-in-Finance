@@ -1,0 +1,76 @@
+[build-system]
+requires = ["setuptools==82.0.1", "wheel==0.47.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-in-finance-notebook-suite"
+version = "1.1.0"
+description = "Executable, governed notebook labs for Large Language Models in Finance"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [
+  {name = "Miquel Noguer i Alonso"}
+]
+keywords = [
+  "finance",
+  "large-language-models",
+  "retrieval-augmented-generation",
+  "model-governance",
+  "jupyter-notebooks",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Education",
+  "Intended Audience :: Financial and Insurance Industry",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+  "matplotlib>=3.8,<4",
+  "numpy>=1.26,<3",
+  "pandas>=2.1,<3",
+  "pillow>=10,<13",
+  "pydantic>=2.6,<3",
+  "scikit-learn>=1.4,<2",
+  "scipy>=1.11,<2",
+]
+
+[project.optional-dependencies]
+notebooks = [
+  "ipykernel>=6.29,<7",
+  "jupyterlab>=4.2,<5",
+  "nbclient>=0.10,<1",
+  "nbformat>=5.10,<6",
+]
+dev = [
+  "ruff>=0.15,<0.16",
+]
+extensions = [
+  "accelerate>=1.14,<2",
+  "safetensors>=0.8,<1",
+  "torch>=2.13,<3",
+  "transformers>=5.14,<6",
+]
+
+[project.urls]
+Homepage = "https://github.com/PacktPublishing/LLMs-in-Finance"
+Repository = "https://github.com/PacktPublishing/LLMs-in-Finance"
+Issues = "https://github.com/PacktPublishing/LLMs-in-Finance/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+finllm_lab = ["py.typed"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+extend-exclude = ["notebooks", "notebook_sources"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I", "B", "RUF100"]
+ignore = ["E501"]
